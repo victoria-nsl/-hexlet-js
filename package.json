@@ -1,7 +1,8 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
-  "description": "Мой первый проект на Хекслете","type": "module",
+  "type": "module",
+  "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/victoria-nsl/-hexlet-js.git"
   },
-
   "author": "victoria",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/victoria-nsl/-hexlet-js/issues"
   },
-  "homepage": "https://github.com/victoria-nsl/-hexlet-js#readme"
+  "homepage": "https://github.com/victoria-nsl/-hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
